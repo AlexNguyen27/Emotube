@@ -1,0 +1,2 @@
+${totalLike}-${totalDislike}
+<%-- ${total} --%>
