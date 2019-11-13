@@ -163,7 +163,7 @@ uri="http://www.springframework.org/tags/form"%>
                 <td><fmt:formatDate type="date" pattern="dd/MM/yyyy" value="${v.upload_date}" /></td>
                 <td>${v.views}</td>
                 <td>${v.duration}</td>
-                <td>${v.privacy == 0 ? 'yes' : 'no'}</td>
+                <td>${v.privacy == 1 ? 'yes' : 'no'}</td>
               </tr>
             </c:forEach>
           </tbody>
